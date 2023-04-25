@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3cd6a8b30d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="outerdiv">
+
+        <div id="innerdiv1">
+            <div id="innerdiv1-heading-container">
+                <h1>Hello Friend!</h1>
+            </div>
+            <div id="innerdiv1-about-container">
+                <p>Enter your personal details and start your journey with us</p>
+            </div>
+            <button id="signupbtn" onclick="handleClick()">SIGN UP</button>
+        </div>
+
+        <div id="innerdiv2">
+
+            <div id="innerdiv2-heading-container">
+                <h1>Create Account</h1>
+            </div>
+
+            <div id="socialmedia-container">
+                <div id="socialmedia-icons">
+                    <i class="fa-brands fa-facebook-f social-icons"></i>
+                    <i class="fa-brands fa-instagram social-icons"></i>
+                    <i class="fa-brands fa-linkedin-in social-icons"></i>
+                </div>
+                <div id="socialmedia-container-footer">
+                    <p>or use your email for registration</p>
+                </div>
+            </div>
+
+            <div>
+            <form id="signup-form" action="">
+                <div class="input-row">
+                    <i class="fa-solid fa-user"></i> <input id="form-name" type="text" placeholder="Name" type="text">
+                </div>
+                <div class="input-row">
+                    <i class="fa-solid fa-envelope"></i><input id="form-email"  type="text" placeholder="Email" type="email">
+                </div>
+                <div class="input-row">
+                    <i class="fa-solid fa-lock"></i>  <input id="form-password"  type="text" placeholder="Password" type="password" minlength="6" required>
+                </div>
+                <div id="create-account-signup">
+                    <button id="create-account-signup-btn">SIGN UP</button>
+                </div>
+            </form>
+            </div>
+
+            
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

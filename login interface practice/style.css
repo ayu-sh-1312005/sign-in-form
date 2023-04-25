@@ -1,0 +1,122 @@
+#outerdiv{
+    height:90vh;
+    width: 60vw;
+    margin: auto;
+    background-color: rgb(222, 225, 206);
+    display: flex;
+    flex-direction: row;
+    min-width: 600px;
+    min-height: 600px;
+    box-shadow: 0 1rem 2rem rgb(9, 9, 9);
+    position: relative;
+}
+/* innerdiv1 */
+#innerdiv1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background:linear-gradient(to right,rgb(23, 101, 101),rgb(11, 165, 114));
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transition: 1s;
+}
+#innerdiv1 h1{
+    font-family:cursive;
+}
+#innerdiv1 p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family:cursive;
+}
+#signupbtn{
+    margin-top: 10rem;
+    background-color: transparent;
+    border-color: aliceblue;
+    border-width: 0.1px;
+    font-size: larger;
+    color: aliceblue;
+    font-family:cursive;
+    border-radius: 10px;
+}
+
+
+/* innerdiv2 */
+#innerdiv2{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 0%;
+    background-color: rgba(240, 234, 234, 0.303);
+    color: rgb(8, 131, 106);
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#socialmedia-container{
+    margin-bottom: 1rem;
+}
+#innerdiv2-heading-container{
+    margin-top: 10%;
+}
+/* form */
+div form input{
+    display: inline-block;
+    background-color: transparent;
+    border-width: 0;
+    outline: none;
+    margin-left: 10px;
+    font-size: 1rem;
+    height:2.5rem;
+}
+#socialmedia-icons{
+    text-align: center;
+}
+.social-icons{
+    border-radius: 100%;
+    border: 0.1rem solid;
+    padding: 0.3rem;
+    margin: 0.1rem;
+}
+.input-row{
+    background-color: white;
+    padding: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input#form-name{
+    padding: 1px 2px;;
+}
+
+#create-account-signup-btn{
+    background-color: rgb(8, 137, 94);
+    border-width: 0;
+    border-radius: 10px;
+    padding: 1rem;
+    color: aliceblue;
+    margin-top: 1rem;
+}
+#signup-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:100px) {
+    
+}
